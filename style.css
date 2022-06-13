@@ -27,7 +27,7 @@ body {
 
 .nav {
   border: 1px;
-  background-color: aqua;
+  background-color: rgb(255, 123, 0);
 }
 
 .nav-list {
@@ -37,11 +37,17 @@ body {
   list-style: none;
 }
 
+.nav-item a:hover {
+  color: blue;
+}
+
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
   transition: .3s;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
 .main-container {
@@ -60,7 +66,7 @@ body {
 }
 
 .section-item {
-  color: #829985;
+  color: #04470b;
   text-decoration: none;
   transition: color 0.5s;
 }
@@ -68,8 +74,23 @@ body {
 .section-item a:hover {
   color: #4d2323 ;
 }
+  
+.link {
+  text-decoration: none;
+  color: #8e97f0;
+  transition: color 0.5s;
+}
+
+.link:hover {
+  color: #1a1d1a;
+}
+
+.info {
+  color: rgb(10, 126, 155);
+}
+
 
 .footer {
-  border: 1px solid red;
+  
 }
 
